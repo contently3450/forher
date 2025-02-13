@@ -16,12 +16,12 @@
     },
     {
         "question": "What's our song?",
-        "options": ["Perfect - Ed Sheeran", "All of Me - John Legend", "Can't Help Falling in Love - Elvis", "At Last - Etta James"],
+        "options": ["Kooch na Kari", "Tum hi ho", "Sigma sigma boi", "Tum ho"],
         "correctAnswer": 0
     },
     {
         "question": "What makes us perfect together?",
-        "options": ["We complete each other", "We make each other laugh", "We support each other's dreams", "All of the above"],
+        "options": ["We complete each other", "We make each other laugh", "We are each other's therapist", "All of the above"],
         "correctAnswer": 3
     }
 ]

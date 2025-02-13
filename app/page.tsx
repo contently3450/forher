@@ -3,6 +3,7 @@
 // import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import styles from '../styles/Home.module.css';
+import "./globals.css";
 
 export default function Home() {
     // const [countdown, setCountdown] = useState<string>('' as string);
@@ -25,8 +26,8 @@ export default function Home() {
     return (
         <div className={styles.container}>
             <main className={styles.main}>
-                <h1>Welcome, My Love</h1>
-                <p>Before I ask you something special, let&apos;s see how well you know us ❤️</p>
+                <h1>Welcome Meri Jaan</h1>
+                <p>Before I ask you something special, let&apos;s see how well you know us❤️</p>
                 {/* <div className={styles.countdown}>{countdown}</div> */}
                 <Link href="/quiz">
                     <button className={styles.button}>Start Quiz</button>

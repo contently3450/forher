@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from 'react';
+import "../globals.css";
 import questions from '../../data/questions.json';
 import styles from '../../styles/Quiz.module.css';
 import { useRouter } from 'next/navigation'; // Ensure you're importing from 'next/navigation'
@@ -55,7 +56,9 @@ export default function Quiz() {
                         </button>
                     ))}
                 </div>
-                {showFeedback && <p className={styles.feedback}>{feedback}</p>}
+                {showFeedback && (
+                    <p className={isCorrect ? styles.feedback : styles.wrong}>{feedback}</p>
+                )}
                 {showFeedback && isCorrect && (
                     <button className={styles.button} onClick={nextQuestion}>Next Question</button>
                 )}

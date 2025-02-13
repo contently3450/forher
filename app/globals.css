@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 :root {
-  --background: #ffffff;
+  --background: #FFE5EC;
   --foreground: #171717;
 }
 
@@ -20,4 +20,5 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: 'Outfit', sans-serif;
+  background-color: #FFE5EC !important;
 }

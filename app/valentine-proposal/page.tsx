@@ -15,8 +15,8 @@ export default function ValentineProposal() {
 
     return (
         <div className={styles.container}>
-            <h1 className={styles.title}>Will you be my Valentine?</h1>
-            <button className={styles.yesButton} onClick={() => alert("Yay! Can't wait to celebrate together!")}>
+            <h1 className={styles.title}>Baby will you be my Valentine?</h1>
+            <button className={styles.yesButton} onClick={() => window.location.href = '/celebration'}>
                 Yes
             </button>
             <button 

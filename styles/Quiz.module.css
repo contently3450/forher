@@ -16,7 +16,7 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #f9f9f9; /* Soft background color */
+    background-color: #FFE5EC; /* Soft background color */
     padding: 20px;
 }
 
@@ -69,4 +69,8 @@
     font-size: 1.2rem;
     color: #28a745; /* Green color for feedback */
     font-weight: bold;
+}
+
+.wrong {
+    color: red; /* Set the text color to red for wrong answers */
 }

@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh; /* Full viewport height */
-    background-color: #f9f9f9; /* Light background color */
+    background-color: #FFE5EC; /* Light background color */
     font-family: 'Outfit', sans-serif; /* Use Outfit font for body text */
 }
 
@@ -45,4 +45,19 @@
     padding: 10px 20px; /* Button padding */
     border: none; /* Remove border */
     border-radius: 5px; /* Rounded corners */
+}
+
+.button {
+    background-color: #d63384; /* Pink button */
+    color: white; /* White text */
+    padding: 15px 30px; /* Button padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1.5rem; /* Button text size */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.button:hover {
+    background-color: #b72a6d; /* Darker pink on hover */
 }
