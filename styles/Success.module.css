@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f9f9f9; /* Light background color */
+    font-family: 'Jua', sans-serif; /* Use Jua font for all text */
+}
+
+.title {
+    font-size: 4rem; /* Large size for the title */
+    color: #d63384; /* Pink color for the title */
+    text-align: center; /* Center the text */
+}
+
+.message {
+    font-size: 2rem; /* Large size for the message */
+    margin: 20px 0; /* Space above and below the message */
+    text-align: center; /* Center the text */
+    color: #d63384; /* Pink color for the message */
+}
+
+.button {
+    background-color: #d63384; /* Pink button */
+    color: white; /* White text */
+    padding: 15px 30px; /* Button padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+    font-size: 1.5rem; /* Large button text */
+}
+
+.button:hover {
+    background-color: #b72a6d; /* Darker pink on hover */
+}

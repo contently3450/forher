@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f9f9f9; /* Light background color */
+    font-family: 'Outfit', sans-serif; /* Use Outfit font for all text */
+}
+
+.title {
+    font-size: 3rem; /* Size for the title */
+    color: #d63384; /* Pink color for the title */
+    text-align: center; /* Center the text */
+    font-family: 'Jua', sans-serif; /* Use Jua font for the title */
+}
+
+.yesButton {
+    background-color: #d63384; /* Pink button */
+    color: white; /* White text */
+    padding: 15px 30px; /* Button padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin: 10px; /* Space between buttons */
+    font-size: 1.5rem; /* Button text size */
+}
+
+.noButton {
+    background-color: #d63384; /* Pink button */
+    color: white; /* White text */
+    padding: 15px 30px; /* Button padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin: 10px; /* Space between buttons */
+    font-size: 1.5rem; /* Button text size */
+    position: absolute; /* Absolute positioning for teleportation */
+    top: 80%; /* Adjust the vertical position to avoid overlap */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the button */
+}
+
+.noButton:hover {
+    transform: translate(-50%, -50%) translateY(-10px); /* Move up when hovered */
+}

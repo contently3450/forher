@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Hum sabse pahle kaha mile?",
+        "options": ["Coffee shop☕", "Through mutual friends", "At gay club", "On social media"],
+        "correctAnswer": 3
+    },
+    {
+        "question": "What's my favorite thing about you?",
+        "options": ["Your kindness", "Your beauty", "THOSE JUGS", "All of the above!!!!!!"],
+        "correctAnswer": 3
+    },
+    {
+        "question": "When I confessed for you?",
+        "options": ["31st February", "9th October", "Kal hi kiya tha", "I never confessed"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What's our song?",
+        "options": ["Perfect - Ed Sheeran", "All of Me - John Legend", "Can't Help Falling in Love - Elvis", "At Last - Etta James"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What makes us perfect together?",
+        "options": ["We complete each other", "We make each other laugh", "We support each other's dreams", "All of the above"],
+        "correctAnswer": 3
+    }
+]

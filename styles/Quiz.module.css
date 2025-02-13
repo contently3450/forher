@@ -1,0 +1,72 @@
+@keyframes shake {
+    0% { transform: translate(0); }
+    25% { transform: translate(-15px); } /* Increased shake distance */
+    50% { transform: translate(15px); }  /* Increased shake distance */
+    75% { transform: translate(-15px); } /* Increased shake distance */
+    100% { transform: translate(0); }
+}   
+
+.shake {
+    animation: shake 0.3s ease;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f9f9f9; /* Soft background color */
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    width: 100%; /* Full width */
+    max-width: 600px; /* Limit max width for better readability */
+    height: auto; /* Allow height to adjust based on content */
+    min-height: 200px; /* Optional: set a minimum height */
+}
+
+.options-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-between; /* Space items evenly */
+    margin-top: 20px; /* Space above options */
+    width: 100%; /* Ensure the container takes full width */
+}
+
+.button {
+    flex: 0 48%; /* Allow buttons to take up about half of the container width */
+    margin: 10px 0; /* Add vertical margin for spacing */
+    padding: 15px 0; /* Adjust padding for better click area */
+    font-size: 1.2rem;
+    background-color: #d63384;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.card h2 {
+    font-size: 2.5rem; /* Make the question text larger */
+    font-family: 'Jua', sans-serif; /* Use Jua for the question font */
+    color: #d63384; /* Optional: use the same pink color for consistency */
+    margin-bottom: 20px; /* Space below the question */
+}
+
+.button:hover {
+    background-color: #c82333;
+}
+
+.feedback {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #28a745; /* Green color for feedback */
+    font-weight: bold;
+}

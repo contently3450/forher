@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Outfit:wght@100..900&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.main {
+    text-align: center;
+}
+
+.countdown {
+    font-size: 2rem;
+    color: #d63384;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    background-color: #d63384;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #c82333;
+}
+
+.main h1 {
+    font-size: 3rem; /* Make the "Welcome, My Love" text larger */
+    color: #d63384; /* Pink color for the title */
+    font-family: 'Jua', sans-serif; /* Use Jua for the display font */
+}
+
+.main p {
+    color: black; /* Keep the paragraph text black */
+    font-size: 1.2rem; /* Optional: adjust the size for better readability */
+}
