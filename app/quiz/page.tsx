@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import questions from '../../data/questions.json';
 import styles from '../../styles/Quiz.module.css';
 import { useRouter } from 'next/navigation'; // Ensure you're importing from 'next/navigation'
